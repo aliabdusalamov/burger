@@ -4,9 +4,16 @@
 @import "config/mixins";
 
 // base
-@import "layout/fonts";
-@import "layout/base";
 @import "layout/adjustment";
+@import "layout/base";
+@import "layout/fonts";
+
+
 
 // sections
 @import "sections/hero";
+@import "sections/we";
+@import "sections/burgers";
+@import "sections/team";
+@import "sections/meat";
+@import "sections/reviews";

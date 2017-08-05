@@ -1,0 +1,72 @@
+.meat {
+    background: url(../img/decor/meat-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.meat-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meat__left {
+    flex-basis: 50%;
+    height: 100%;
+    padding-top: rem(100px);
+}
+
+.meat__list {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-basis: 50%;
+    opacity: 0.93;
+}
+
+.meat__item {
+    height: rem(650px);
+    width: rem(80px);
+    position: relative;
+    background-color: #2f3234;
+    text-align: center;
+    
+}
+
+.meat__title {
+    display: block;
+    width: rem(80px);
+    min-width: rem(80px);
+    font-family: Gagalin;
+    font-size: 40px;
+    line-height: 1;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.meat__title-transform {
+    display: block;
+    width: rem(650px);
+    height: rem(80px);
+    line-height: 80px;
+    position: absolute;
+    top: 50%;
+    left: -17.8125rem;
+    margin-top: -2.5rem;
+    transform: rotate(-90deg);
+}
+
+.meat__item-content {
+    background: #2f3234;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    overflow: hidden;
+    display: none;
+}

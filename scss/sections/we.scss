@@ -1,0 +1,58 @@
+.we {
+    background-image: url(../img/bg/tomato.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.section-title_color_black {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: rem(50px);
+    color: $dark;
+}
+
+.we-inner {
+    height: 100%;
+    display: flex;    
+}
+
+.we-col {
+    margin: 0 15px;
+    flex: 1;
+}
+
+.we-col__imag {
+    position: relative;
+    justify-content: center;
+    height: 90px;
+}
+
+.we-col__icons {
+    width: 100%;
+    height: 100%;
+}
+
+.we-col__text {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.we-col__text-title {
+    font-family: Lifehack;
+    font-size: 24.1px;
+    line-height: 1.166;
+    column: $dark;
+    margin-bottom: 10px;
+}
+
+.we-col__text-paragraph {
+    font-family: Ubuntu;
+    font-size: 14.03px;
+    font-weight: 300;
+    line-height: 1.714;
+    column: $dark;
+}
+

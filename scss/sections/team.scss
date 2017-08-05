@@ -1,0 +1,107 @@
+.team {
+    background-image: url(../img/bg/team_bg.jpg);
+    background-position:  center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.team-section {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 50%;
+    background: rgba($dark, .93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-content {
+    padding-top: rem(20px);
+    width: 80%;
+}
+
+.team-acco__item {
+    margin-bottom: 30px;
+
+    &.active {
+        .team-acco__content{
+            height: auto;
+        }
+
+        .team-acco__title{
+            color: $yellow;
+        
+            &:before {
+                transform: rotate(180deg);
+            }
+        }
+   
+    }
+       
+}
+
+.team-acco__title {
+    font-family: Gagalin;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+
+    &:before {
+        content: "";
+        width: 0;
+        height: 0;
+        border: 9px solid transparent;
+        border-top-color: $yellow; 
+        border-bottom: none;
+        margin-right: 9px;
+    }
+}
+
+.team-acco__content {
+    display: flex;
+    padding-right: 100px;
+    overflow: hidden;
+    height: 0;
+}
+
+.team-acco__avatar {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.team-acco__avatar-pic {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+
+    
+}
+
+.team-acco__desc {
+    margin-left: 10px;
+}
+
+.team-acco__occ {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.team-acco__desc-text {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}

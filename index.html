@@ -14,12 +14,12 @@
             <section class="section hero">
                 <div class="container hero__container">
                     <div class="header">
-                        <div class="header-left">
+                        <div class="header__logo">
                             <a href="index.html" class="logo">
-                                 <img src="/img/logos/logo.svg" alt="logo" class="logo__img"> 
+                                 <img src="img/logos/logo.svg" alt="logo" class="logo__img"> 
                             </a>
                         </div>
-                        <div class="header-center">
+                        <div class="header__menu">
                             <ul class="menu__list">
                                 <li class="menu__item">
                                     <a href="#" class="menu__link">
@@ -53,25 +53,26 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="header-btn">
-                            <a href="#" class="order-link">
-                                <button class="btn btn-alt">Заказать</button>
+                        <div class="header__btn">
+                            <a href="#" class="order-link" data-goto="6">
+                                Заказать
                             </a>
                         </div>
                     </div>
-                    <div class="hero-content">
-                        <div class="hero-content__imag">
-                            <img src="img/decor/burger.png" alt="" class="hero-content__imag-pic">
+                    <div class="hero__content">
+                        <div class="hero__imag">
+                            <img src="img/decor/burger.png" alt="" class="hero__imag-pic">
                         </div>
-                        <div class="hero-content__text">
-                            <h1 class="hero-content__title">
+                        <div class="hero__description">
+                            <h1 class="section-title">
                                 Мы делаем
                             </h1>
-                            <div class="hero-content__title-text">
+                            <div class="hero__description-text">
                                 натуральные бургеры
                             </div>
-                        </div>
+                        </div>  
                     </div>
+                     <a href="#" class="hero__icons-arrow"></a>   
                     <div class="hero-points">
                         <ul class="hero-points__list">
                             <li class="hero-points__item">
@@ -104,153 +105,394 @@
             </section>
             <section class="section we">
                 <div class="container">
-                    <h1 class="we__title we__title-we">
+                    <h1 class="section-title section-title_color_black">
                         Мы лучшие
                     </h1>
-                    <div class="we-inner clearfix">
+                    <div class="we-inner">
                         <div class="we-col">
                             <div class="we-col__imag">
-                                <img src="img/svg/meat.png" alt="" class="we-col__imag-pic"> 
-                            </div>
-                            <div class="we-col__title">
-                                100% свежее мясо
+                                <svg class="we-col__icons">
+                                    <use xlink:href="proects-burgers/img/svg/spriteSvgDemo.html#meat"></use>
+                                </svg> 
                             </div>
                             <div class="we-col__text">
-                                Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Ямб неравномерен.
-                            </div>
+                                <h3 class="we-col__text-title">
+                                    100% свежее мясо
+                                </h3>
+                                <div class="we-col__text-paragraph">
+                                    <p>
+                                        Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Ямб неравномерен.
+                                    </p>
+                                </div> 
+                            </div>  
                         </div>
                         <div class="we-col">
                             <div class="we-col__imag">
-                                <img src="img/svg/hand.png" alt="" class="we-col__imag-pic">
-                            </div>
-                            <div class="we-col__title">
-                                Ручная  сборка
+                                <svg class="we-col__icons">
+                                    <use xlink:href="../img/svg/spriteSvgDemo.html#meat"></use>
+                                </svg> 
                             </div>
                             <div class="we-col__text">
-                                Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Первое полустишие притягивает сюжетный реформаторский пафос.
+                                <h3 class="we-col__text-title">
+                                    Ручная  сборка
+                                </h3>
+                                <div class="we-col__text-paragraph">
+                                    <p>
+                                        Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Первое полустишие притягивает сюжетный реформаторский пафос.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                         <div class="we-col we-col-margin">
                             <div class="we-col__imag">
-                                <img src="img/svg/natural.png" alt="" class="we-col__imag-pic">
-                            </div>
-                            <div class="we-col__title">
-                                Натуральные ингредиенты
+                                <svg class="we-col__icons">
+                                    <use xlink:href="../img/svg/spriteSvgDemo.html#meat"></use>
+                                </svg> 
                             </div>
                             <div class="we-col__text">
-                                Драма представляет собой деструктивный цикл. Анапест представляет собой анапест.
-                            </div>
+                                <h3 class="we-col__text-title">
+                                    Натуральные ингредиенты
+                                </h3>
+                                <div class="we-col__text-paragraph">
+                                     <p>
+                                        Драма представляет собой деструктивный цикл. Анапест представляет собой анапест.
+                                    </p>
+                                </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
             </section> 
             <section class="section burger">
                 <div class="container">
-                    <div class="burger-nnn"></div>
+                    <div class="burger-iner">
+                        <div class="burger__imag">
+                            <img src="./img/decor/Burger-with-ink.png" alt="" class="burger__imag-pic">
+                        </div>
+                        <div class="burger__text">
+                            <h1 class="section-title section-title__color-white">
+                                Dark BEEF Burger
+                            </h1>
+                            <div class="burger__text-paragraph">
+                                <p>Ваш старый добрый знакомый, с рубленым бифштексом из 100% говядины, тремя кусочками нежнейшего сыра эмменталь, двумя помидорами, луком, салатом и соусом гриль теперь с добавлением экзотического соуса чураско.</p>
+                            </div>
+                            <div class="burger__price">
+                                <h1 class="section-title section-title__color-orange">
+                                    500
+                                </h1>
+                                <span class="burger__price-rub">рублей</span>
+                                <div class="header__btn">
+                                    <a href="#" class="order-link" data-goto="6">
+                                        Заказать
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </section> 
+            </section>
+            <section class="section team">
+                <div class="team-section">
+                    <div class="team-content">
+                        <h1 class="section-title">
+                            Команда
+                        </h1>
+                        <ul class="team-acco">
+                            <li class="team-acco__item active">
+                                <div class="team-acco__title">
+                                    Даниэль Редклиф
+                                </div>
+                                <div class="team-acco__content">
+                                    <div class="team-acco__imag">
+                                        <div class="team-acco__avatar">
+                                            <img src="img/reviews/aphex-1.jpg" alt="" class="team-acco__avatar-pic">
+                                        </div>
+                                    </div>
+                                    <div class="team-acco__desc">
+                                        <div class="team-acco__occ">
+                                            Оператор
+                                        </div>
+                                        <div class="team-acco__desc-text">
+                                            <p>С радостью поможет подобрать идеальный бургер и оформить заказ.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="team-acco__item">
+                                <div class="team-acco__title">
+                                    Даниэль Редклиф
+                                </div>
+                                <div class="team-acco__content">
+                                    <div class="team-acco__imag">
+                                        <div class="team-acco__avatar">
+                                            <img src="img/reviews/aphex-1.jpg" alt="" class="team-acco__avatar-pic">
+                                        </div>
+                                    </div>
+                                    <div class="team-acco__desc">
+                                        <div class="team-acco__occ">
+                                            Оператор
+                                        </div>
+                                        <div class="team-acco__desc-text">
+                                            <p>С радостью поможет подобрать идеальный бургер и оформить заказ.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="team-acco__item">
+                                <div class="team-acco__title">
+                                    Даниэль Редклиф
+                                </div>
+                                <div class="team-acco__content">
+                                    <div class="team-acco__imag">
+                                        <div class="team-acco__avatar">
+                                            <img src="img/reviews/aphex-1.jpg" alt="" class="team-acco__avatar-pic">
+                                        </div>
+                                    </div>
+                                    <div class="team-acco__desc">
+                                        <div class="team-acco__occ">
+                                            Оператор
+                                        </div>
+                                        <div class="team-acco__desc-text">
+                                            <p>С радостью поможет подобрать идеальный бургер и оформить заказ.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="team-acco__item">
+                                <div class="team-acco__title">
+                                    Даниэль Редклиф
+                                </div>
+                                <div class="team-acco__content">
+                                    <div class="team-acco__imag">
+                                        <div class="team-acco__avatar">
+                                            <img src="img/reviews/aphex-1.jpg" alt="" class="team-acco__avatar-pic">
+                                        </div>
+                                    </div>
+                                    <div class="team-acco__desc">
+                                        <div class="team-acco__occ">
+                                            Оператор
+                                        </div>
+                                        <div class="team-acco__desc-text">
+                                            <p>С радостью поможет подобрать идеальный бургер и оформить заказ.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="section meat">
+               
+                    <div class="meat-container">
+                        <div class="meat__left">
+                            <h1 class="section-title section-title__color-white">
+                                Меню
+                            </h1>
+                        </div>
+                        <ul class="meat__list">
+                            <li class="meat__item">
+                                <a href="#" class="meat__title" style="background-image:url('./img/decor/meat-1.jpg')">
+                                    <span class="meat__title-transform">
+                                        Для мясоедов
+                                    </span>
+                                </a>
+                                 <div class="meat__item-content">
+                                    <p>
+                                        Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование 
+                                        редуцирует конструктивный механизм сочленений. Лирический субъект начинает 
+                                        диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову, 
+                                        однако механизм сочленений неустойчив. Модальность высказывания, как справедливо 
+                                        считает И.Гальперин, пространственно выбирает метр.
+                                        Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование 
+                                        редуцирует конструктивный механизм сочленений. Лирический субъект начинает 
+                                        диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову.
+                                    </p>
+                                </div> 
+                            </li>
+                            <li class="meat__item">
+                                <a href="#" class="meat__title" style="background-image:url('./img/decor/meat-2.jpg')">
+                                    <span class="meat__title-transform">
+                                        Вегетарианское
+                                    </span>
+                                </a>
+                                 <div class="meat__item-content">
+                                    <p>
+                                        Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование 
+                                        редуцирует конструктивный механизм сочленений. Лирический субъект начинает 
+                                        диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову, 
+                                        однако механизм сочленений неустойчив. Модальность высказывания, как справедливо 
+                                        считает И.Гальперин, пространственно выбирает метр.
+                                        Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование 
+                                        редуцирует конструктивный механизм сочленений. Лирический субъект начинает 
+                                        диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову.
+                                    </p>
+                                </div> 
+                            </li>
+                            <li class="meat__item">
+                                <a href="#" class="meat__title" style="background-image:url('./img/decor/meat-3.jpg')">
+                                    <span class="meat__title-transform">
+                                        Диетическое
+                                    </span>
+                                </a>
+                                 <div class="meat__item-content">
+                                    <p>
+                                        Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование 
+                                        редуцирует конструктивный механизм сочленений. Лирический субъект начинает 
+                                        диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову, 
+                                        однако механизм сочленений неустойчив. Модальность высказывания, как справедливо 
+                                        считает И.Гальперин, пространственно выбирает метр.
+                                        Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование 
+                                        редуцирует конструктивный механизм сочленений. Лирический субъект начинает 
+                                        диссонансный анжамбеман. Наш современник стал особенно чутко относиться к слову.
+                                    </p>
+                                </div> 
+                            </li>
+                        </ul>
+                    </div>
+                
+            </section>
             <section class="section reviews">
-                <div class="reviews-iner">
-                    <ul class="reviews__list">
-                        <li class="reviews__item">
-                            <div class="reviews__item-photo"></div>
-                            <div class="reviews__item-iner">
-                                <div class="reviews__link-title">
+                <ul class="reviews__list">
+                    <li class="reviews__item" style="background-image:url('./img/reviews/1.jpg')">
+                        <div class="review__hover">
+                            <div class="review__hover-content">
+                                <div class="review__title">
                                     Константин Спилберг
                                 </div>
-                                <div class="reviews__link-text">
-                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозмо
+                                <div class="review__paragraph">
+                                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
                                 </div>
-                                <a href="#" class="reviews__link">Подробнее</a>
+                                <div class="header__btn">
+                                    <a href="#" class="order-link" data-goto="6">
+                                        Заказать
+                                    </a>
+                                </div>
                             </div>
-                        </li>
-                        <li class="reviews__item">
-                            <div class="reviews__item-photo"></div>
-                            <div class="reviews__item-iner">
-                                <div class="reviews__link-title">
+                        </div>  
+                    </li>
+                    <li class="reviews__item" style="background-image:url('./img/reviews/2.jpg')">
+                        <div class="review__hover">
+                            <div class="review__hover-content">
+                                <div class="review__title">
                                     Константин Спилберг
                                 </div>
-                                <div class="reviews__link-text">
-                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозмо
+                                <div class="review__paragraph">
+                                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
                                 </div>
-                                <a href="#" class="reviews__link">Подробнее</a>
+                                <div class="header__btn">
+                                    <a href="#" class="order-link" data-goto="6">
+                                        Заказать
+                                    </a>
+                                </div>
                             </div>
-                        </li>
-                        <li class="reviews__item">
-                            <div class="reviews__item-photo"></div>
-                            <div class="reviews__item-iner">
-                                <div class="reviews__link-title">
+                        </div>  
+                    </li>
+                    <li class="reviews__item" style="background-image:url('./img/reviews/3.jpg')">
+                        <div class="review__hover">
+                            <div class="review__hover-content">
+                                <div class="review__title">
                                     Константин Спилберг
                                 </div>
-                                <div class="reviews__link-text">
-                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозмо
+                                <div class="review__paragraph">
+                                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
                                 </div>
-                                <a href="#" class="reviews__link">Подробнее</a>
+                                <div class="header__btn">
+                                    <a href="#" class="order-link" data-goto="6">
+                                        Заказать
+                                    </a>
+                                </div>
                             </div>
-                        </li>
-                        <li class="reviews__item">
-                            <div class="reviews__item-photo"></div>
-                            <div class="reviews__item-iner">
-                                <div class="reviews__link-title">
+                        </div>  
+                    </li>
+                    <li class="reviews__item" style="background-image:url('./img/reviews/4.jpg')">
+                        <div class="review__hover">
+                            <div class="review__hover-content">
+                                <div class="review__title">
                                     Константин Спилберг
                                 </div>
-                                <div class="reviews__link-text">
-                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозмо
+                                <div class="review__paragraph">
+                                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
                                 </div>
-                                <a href="#" class="reviews__link">Подробнее</a>
+                                <div class="header__btn">
+                                    <a href="#" class="order-link" data-goto="6">
+                                        Заказать
+                                    </a>
+                                </div>
                             </div>
-                        </li>
-                        <li class="reviews__item">
-                            <div class="reviews__item-photo"></div>
-                            <div class="reviews__item-iner">
-                                <div class="reviews__link-title">
+                        </div>  
+                    </li>
+                    <li class="reviews__item" style="background-image:url('./img/reviews/5.jpg')">
+                        <div class="review__hover">
+                            <div class="review__hover-content">
+                                <div class="review__title">
                                     Константин Спилберг
                                 </div>
-                                <div class="reviews__link-text">
-                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозмо
+                                <div class="review__paragraph">
+                                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
                                 </div>
-                                <a href="#" class="reviews__link">Подробнее</a>
+                                <div class="header__btn">
+                                    <a href="#" class="order-link" data-goto="6">
+                                        Заказать
+                                    </a>
+                                </div>
                             </div>
-                        </li>
-                        <li class="reviews__item">
-                            <div class="reviews__item-photo"></div>
-                            <div class="reviews__item-iner">
-                                <div class="reviews__link-title">
+                        </div>  
+                    </li>
+                    <li class="reviews__item" style="background-image:url('./img/reviews/6.jpg')">
+                        <div class="review__hover">
+                            <div class="review__hover-content">
+                                <div class="review__title">
                                     Константин Спилберг
                                 </div>
-                                <div class="reviews__link-text">
-                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозмо
+                                <div class="review__paragraph">
+                                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
                                 </div>
-                                <a href="#" class="reviews__link">Подробнее</a>
+                                <div class="header__btn">
+                                    <a href="#" class="order-link" data-goto="6">
+                                        Заказать
+                                    </a>
+                                </div>
                             </div>
-                        </li>
-                        <li class="reviews__item">
-                            <div class="reviews__item-photo"></div>
-                            <div class="reviews__item-iner">
-                                <div class="reviews__link-title">
+                        </div>  
+                    </li>
+                    <li class="reviews__item" style="background-image:url('./img/reviews/7.jpg')">
+                        <div class="review__hover">
+                            <div class="review__hover-content">
+                                <div class="review__title">
                                     Константин Спилберг
                                 </div>
-                                <div class="reviews__link-text">
-                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозмо
+                                <div class="review__paragraph">
+                                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
                                 </div>
-                                <a href="#" class="reviews__link">Подробнее</a>
+                                <div class="header__btn">
+                                    <a href="#" class="order-link" data-goto="6">
+                                        Заказать
+                                    </a>
+                                </div>
                             </div>
-                        </li>
-                        <li class="reviews__item">
-                            <div class="reviews__item-photo"></div>
-                            <div class="reviews__item-iner">
-                                <div class="reviews__link-title">
+                        </div>  
+                    </li>
+                    <li class="reviews__item" style="background-image:url('./img/reviews/8.jpg')">
+                        <div class="review__hover">
+                            <div class="review__hover-content">
+                                <div class="review__title">
                                     Константин Спилберг
                                 </div>
-                                <div class="reviews__link-text">
-                                    Мысли все о них и о них, о них и о них. Нельзя устоять, невозмо
+                                <div class="review__paragraph">
+                                    <p>Мысли все о них и о них, о них и о них. Нельзя устоять, невозможно забыть... Никогда не думал, что булочки могут быть такими мягкими, котлетка такой сочной, а сыр таким расплавленным.</p>
                                 </div>
-                                <a href="#" class="reviews__link">Подробнее</a>
+                                <div class="header__btn">
+                                    <a href="#" class="order-link" data-goto="6">
+                                        Заказать
+                                    </a>
+                                </div>
                             </div>
-                        </li>
-                    </ul>
-                </div>
-            </section> 
+                        </div>  
+                    </li>
+                </ul>
+            </section>
+
         </div>   
     </div>
 </body>

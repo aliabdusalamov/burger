@@ -1,0 +1,50 @@
+.burger {
+    background:  #FF8C00;
+}
+
+.burger-iner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.burger__imag {
+    align-items: center;
+}
+
+.burger__text{
+    padding-top: rem(10px);
+    
+}
+
+.section-title__color-white{
+    color: #fff;
+    line-height: 1;
+}
+
+.burger__text-paragraph {
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.section-title__color-orange {
+    color: $orange;
+    margin-right: 10px;
+}
+
+.burger__price-rub {
+    font-family: Gagalin;
+    font-size: 30px;
+    color: $orange;
+    text-transform: lowercase;
+    margin-right: 30px;
+}
+
+.burger__price {
+    display: flex;
+    justify-content: row;
+    align-items: baseline;
+}
