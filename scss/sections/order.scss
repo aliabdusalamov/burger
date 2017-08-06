@@ -1,0 +1,120 @@
+.order {
+    background: url(../img/bg/order_bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+}
+
+.form-iner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.form-left, .form-right {
+    flex: 1;
+}
+
+.form__row {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-bottom: rem(3px);
+}
+
+.form__cel {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: rem(20px);
+}
+
+.form__field-title {
+    font-family: Ubuntu;
+    font-weight: 300;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: rem(1px);
+}
+
+.form__input {
+    width: 100%;
+    padding: rem(14px);
+    font-size: 16px;
+    background: #fff;
+    border-radius: 7px;
+    border: 0;
+   
+}
+
+.form__input-textarea {
+    padding: rem(14px);
+    font-size: 16px;
+    background: #fff;
+    border-radius: 7px;
+    border: 0;
+    height: rem(110px);
+    resize: none;
+    margin-bottom: rem(10px);
+}
+
+.form__radio {
+    display: flex;
+    cursor: pointer;
+    margin-right: rem(20px);
+    color: #fff;
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+.form__radio-elem {
+    display: none;
+}
+
+.form__radio-fake, {
+    width: rem(15px);
+    height: rem(15px);
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: rem(12px);
+}
+
+.form__checkbox-elem {
+    display: none;
+}
+
+.form__checkbox-fake {
+    display: inline-block;
+    width: rem(15px);
+    height: rem(15px);
+    background-color: #ffffff;
+    position: relative;
+    vertical-align: bottom;
+    margin-right: rem(12px);
+    position: relative;
+}
+
+.form__radio-margin {
+    margin-bottom: rem(23px);
+}
+
+.order-link-clone {
+   background: none;
+   margin-left: rem(20px); 
+   text-transform: capitalize;
+}
